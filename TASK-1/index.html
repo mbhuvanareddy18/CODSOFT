@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 contenteditable="true" id="student-name">Hey there, Im Musku Bhuvana Reddy</h1>
+            <p contenteditable="true" id="tagline">Aspiring Software Engineer | AI Enthusiast</p>
+            <a href="#resume" class="btn">View Resume</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p contenteditable="true" id="about-text">
+                I am a passionate student pursuing a career in software development and artificial intelligence. I enjoy working on creative projects and solving real-world problems with technology.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div id="project-list"></div>
+            <button onclick="addProject()" class="btn">+ Add Project</button>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <input type="file" id="resume-upload" accept=".pdf">
+            <p>Download my resume <a href="#" id="resume-link" download>here</a>.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <span contenteditable="true" id="email">bhuvanareddy1811@gmail.com</span></p>
+            <p>LinkedIn: <a href="#" contenteditable="true" id="linkedin">linkedin.com/in/musku-bhuvana-reddy-331326314</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Musku Bhuvana Reddy. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
